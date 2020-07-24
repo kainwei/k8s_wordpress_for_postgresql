@@ -39,6 +39,13 @@ define( 'DB_COLLATE', '' );
 
 define('WP_ALLOW_REPAIR', true);
 
+define('WP_REDIS_HOST', 'redis4wp'); 
+define('WP_REDIS_DATABASE', '0'); 
+define('WP_CACHE_KEY_SALT', 'redis4wp_'); 
+define('WP_REDIS_MAXTTL', '86400'); 
+define('WP_REDIS_PORT', '6379'); 
+//define('WP_REDIS_PASSWORD', 'test1234'); 
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
