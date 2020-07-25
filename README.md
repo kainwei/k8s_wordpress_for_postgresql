@@ -8,5 +8,5 @@ The source is from:
 https://github.com/php4dev/heroku-wordpress
 
 ## Description
-There are seldom versions can be used on internet, most of them without maintain and has bugs, you need to fix their code, even this one, I added definition of wp-content path to file 'wp-content/load.php'. But this is still the best version I can find.
+There are seldom versions can be used on internet, most of them without maintain and has bugs, you need to fix their code, even this one, I added definition of wp-content path to file 'wp-includes/load.php'. But this is still the best version I can find.
 
